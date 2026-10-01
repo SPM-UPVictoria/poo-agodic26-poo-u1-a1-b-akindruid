@@ -46,4 +46,8 @@ public class Casillero {
     public Paquete getpaqueteGuardado() {
         return paqueteGuardado;
     }
+
+    public void setClaveCasillero(int claveCasillero) {
+        this.claveCasillero = claveCasillero;
+    }
 }
